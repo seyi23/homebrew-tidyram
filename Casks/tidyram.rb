@@ -13,7 +13,10 @@ cask "tidyram" do
 
   uninstall quit: "local.tidyram"
 
-  zap trash: "~/Library/Preferences/local.tidyram.plist"
+  zap trash: [
+    "~/Library/Application Support/TidyRAM",
+    "~/Library/Preferences/local.tidyram.plist",
+  ]
 
   caveats <<~EOS
     TidyRAM is free, open source and vibe-coded with Claude.
