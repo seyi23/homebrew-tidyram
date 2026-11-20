@@ -1,6 +1,6 @@
 cask "tidyram" do
-  version "1.3.0"
-  sha256 "91f373621e64ecc206a7388f0ef7e27ec574f2eaa22a95cd736f27e170fb305f"
+  version "1.4.0"
+  sha256 "97878b45e8d6b5f55545545cbbca89c417dae8d9c12648b59c720860f8b8c319"
 
   url "https://github.com/seyi23/TidyRAM/releases/download/v#{version}/TidyRAM-#{version}.zip"
   name "TidyRAM"
