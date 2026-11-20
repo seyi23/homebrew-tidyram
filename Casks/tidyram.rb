@@ -7,7 +7,7 @@ cask "tidyram" do
   desc "Menu bar app that shows memory usage and safely frees the file cache"
   homepage "https://github.com/seyi23/TidyRAM"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "TidyRAM.app"
 
